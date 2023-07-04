@@ -1,0 +1,22 @@
+name: sincei
+description: |
+  A Single-Cell Informatics toolkit for preprocessing, quality-control, analysis and visualizatin of single-cell (epi)-genomics data
+project_home: https://github.com/vivekbhr/sincei
+documentation_home: https://sincei.readthedocs.io/
+publications:
+install:
+  pypi: sincei
+tags:
+  - preprocessing
+  - command-line
+  - epigenomics
+  - counting
+  - GLM-PCA
+  - topic-models
+  - plotting
+license: GPLv3
+version: 0.4
+authors:
+  - vivekbhr
+test_command: |
+  pip install ."[dev]" && pytest
